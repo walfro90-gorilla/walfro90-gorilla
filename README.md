@@ -16,14 +16,19 @@ Más de 10 años en software, 9 en backend. Fundador de [Gorilla Labs](https://g
 | [**codice**](https://github.com/walfro90-gorilla/codice) · [codice.mx](https://codice.mx) | Infraestructura cívica abierta: cada dato con su procedencia; el LLM propone y un humano decide | Python, FastAPI, Postgres, MCP, Next.js |
 | [**bitcoiner**](https://github.com/walfro90-gorilla/bitcoiner) · [dashboard](https://bitcoiner-three.vercel.app) | Sistema orientado a eventos: WebSockets a 7 exchanges, leader election en Postgres, copiloto de IA con escritura gobernada | Node.js, Supabase Realtime, property-based testing |
 
-### En producción con clientes (código privado, recorrido bajo solicitud)
+### Productos propios en producción (código privado)
+
+| Producto | Qué es | Logros |
+|---|---|---|
+| [**Ketzal OS**](https://ketzal.tours) | Back-office para agencias de viajes: ventas, abonos en un ledger append-only, recibos foliados, cobranza y marketplace con cobro en línea (Mercado Pago). Asistente que opera el sistema por tool calling, con confirmación humana en lo que mueve dinero | Operando con 2 agencias reales. Servidor MCP publicado en npm: [`ketzal-mcp`](https://www.npmjs.com/package/ketzal-mcp) |
+| [**Estampida**](https://estampida.run) | SaaS multi-tenant de inscripción, pagos y check-in para carreras, con subdominio propio por organizador y pagos tipo marketplace (Mercado Pago Split) | En producción con dinero real. Primer cliente: Carrera Comic Fest (29 nov 2026, ~2,000 corredores) |
+
+### Para clientes (código privado, recorrido bajo solicitud)
 
 - **CRM comercial para logística cross-border:** ingesta por eventos desde web, WhatsApp, Messenger y correo
   (webhooks con firma verificada), asistente de ventas con RAG sobre pgvector e integración con GoHighLevel.
 - **Middleware CRM ↔ ERP:** GoHighLevel → Odoo por webhooks, en Python sobre funciones serverless.
 - **ClawBot / ORION:** SDR autónomo con calificación de leads por IA, máquina de estados y agenda por webhook.
-- **Ketzal OS:** SaaS para agencias de viajes con asistente por tool calling;
-  publiqué [`ketzal-mcp`](https://www.npmjs.com/package/ketzal-mcp) para operarlo desde cualquier agente vía MCP.
 
 ### Stack
 
