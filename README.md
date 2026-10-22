@@ -30,6 +30,13 @@ Más de 10 años en software, 9 en backend. Fundador de [Gorilla Labs](https://g
 - **Middleware CRM ↔ ERP:** GoHighLevel → Odoo por webhooks, en Python sobre funciones serverless.
 - **ClawBot / ORION:** SDR autónomo con calificación de leads por IA, máquina de estados y agenda por webhook.
 
+### Juegos 3D en el navegador
+
+| Juego | Qué tiene | Stack |
+|---|---|---|
+| [**frontera**](https://github.com/walfro90-gorilla/frontera) · [jugar](https://frontera-five.vercel.app) | Mundo abierto de Ciudad Juárez 2008–2012 en un solo HTML: tráfico, ciclo día/noche, geometría, texturas y audio generados por código | Three.js, WebGL, sin build |
+| [**turbo-gol**](https://github.com/walfro90-gorilla/turbo-gol) · [jugar](https://turbo-gol.vercel.app) | Fútbol de cohetes con motor de física arcade escrito desde cero y pruebas de la física | Three.js, WebGL, sin build |
+
 ### Stack
 
 `TypeScript` `Python` `Node.js` `FastAPI` `Next.js` `PostgreSQL` `Supabase` `Anthropic` `OpenAI` `Gemini` `Groq`
